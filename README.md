@@ -1,6 +1,6 @@
 ## font-art
 
-#### 一个可以给字体设置艺术字的精简库。
+#### 一个可以给字体设置艺术字的精简库，可以设置平面艺术字，也可以设置 3D 艺术字。
 
 ### 怎么使用
 
@@ -20,7 +20,7 @@ import fontArt from 'font-art';
 
 getFontStyle 可以把字效字效样式返回，接收到的样式对象绑定到对应的文字结构即可。
 
-<img src="./src/assets/fontArt.png" height="400" width="600" />
+<img src="./src/assets/fontArt.png" height="620" width="500" />
 
 ### 开发
 

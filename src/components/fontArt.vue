@@ -1,6 +1,5 @@
 <template>
   <div class="font-art-list-wrapper">
-    <span class="art-title">艺术字</span>
     <div class="art-wrapper">
       <div
         v-for="(item, index) in artList"
@@ -40,12 +39,6 @@ export default {
   background: #fff;
   z-index: 1002;
   transition: all .28s;
-  .art-title{
-    flex: 1;
-    font-size: 16px;
-    margin: 10px 10px 0 0;
-    font-weight: 700;
-  }
   .art-wrapper{
     padding: 10px 0;
     height: 80%;
