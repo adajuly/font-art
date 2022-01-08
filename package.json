@@ -1,0 +1,47 @@
+{
+  "name": "font-art",
+  "description": "A package for setting font art",
+  "version": "0.0.1",
+  "author": "adajuly",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress",
+    "dev": "cross-env NODE_ENV=development webpack server --open --hot"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^5.5.0",
+    "lerna": "^3.22.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "terser-webpack-plugin": "^5.2.5",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.0.0-beta.3",
+    "webpack-merge": "^5.8.0",
+    "vue": "^2.5.11"
+  },
+  "license": "MIT",
+  "main": "./dist/font-art.js",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8",
+    "Firefox ESR",
+    "Opera 12.1",
+    "iOS 7"
+  ],
+  "deprecated": false,
+  "keywords": [
+    "font",
+    "fontArt"
+  ]
+}
