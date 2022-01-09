@@ -20,7 +20,7 @@ import fontArt from 'font-art';
 
 getFontStyle 可以把字效字效样式返回，接收到的样式对象绑定到对应的文字结构即可。
 
-<img src="https://raw.githubusercontent.com/adajuly/libs/main/fontArt.png" height="620" width="500" />
+<img src="https://github.com/adajuly/libs/blob/main/fontArt.png?raw=true" height="620" width="500" />
 
 ### 开发
 
